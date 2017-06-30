@@ -34,3 +34,4 @@
 # Project outputs and local configuration
 build/*
 .tags
+.*.swp
