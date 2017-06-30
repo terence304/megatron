@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Project outputs and local configuration
+build/*
+.tags
