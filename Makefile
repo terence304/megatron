@@ -34,7 +34,7 @@ $(BUILD)/megatron : $(OBJECTS)
 	@echo Linking $@
 	$(CXX) $(LDFLAGS) $^ -o $@
 
-$(BUILD)/%.o : $(CXX_SRC)
+$(BUILD)/%.o : src/%.cc
 	@echo Compiling $<
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
